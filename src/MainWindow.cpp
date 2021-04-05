@@ -18,6 +18,7 @@ MainWindow::MainWindow() {
     connect(sidePanel, &SidePanel::Modified, this, &MainWindow::Process);
 
 
+
     In = {};
     Out = {};
 }

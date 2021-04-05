@@ -10,8 +10,16 @@ set(DevantEndWindowSrc
 
 	Maths/VectorMaths.cpp
 
-
 	MainWindow.cpp
+	
+	NodeEditor/NodeEditor.cpp
+	NodeEditor/NodeEditorScene.cpp
+	NodeEditor/Connection.cpp
+	NodeEditor/NodeMenu.cpp
+	NodeEditor/Nodes/Node.cpp
+	NodeEditor/Nodes/BaseNodes.cpp
+	NodeEditor/Nodes/ImageNodes.cpp
+	NodeEditor/Nodes/OperationNodes.cpp
 
 	SidePanel/SidePanel.cpp
 	SidePanel/BaseProcessWidget.cpp

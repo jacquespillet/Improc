@@ -28,6 +28,7 @@ namespace ImProc
         return Result;
     }
 
+
     image DuplicateImage(image *In)
     {
         image Result = {};
